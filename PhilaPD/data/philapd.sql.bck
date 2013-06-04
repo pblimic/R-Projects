@@ -1,0 +1,35 @@
+type:sqlite
+dbname:philapd.db
+--query: SELECT * FROM location_info WHERE zip = '19144'
+
+/*
+type:sqlite
+dbname:philapd.db
+table: location_info
+
+type:sqlite
+dbname:philapd.db
+table: *
+
+type: mysql
+user: sample_user
+password: sample_password
+host: localhost
+dbname: philapd
+table: location_info
+
+type: postgres
+user: sample_user
+password: sample_password
+host: localhost
+dbname: philapd
+table: location_info
+
+type: odbc
+user: sample_user
+password: sample_password
+host: localhost
+dbname: philapd
+table: location_info
+
+*/
