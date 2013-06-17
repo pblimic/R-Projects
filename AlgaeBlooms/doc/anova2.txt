@@ -1,0 +1,9 @@
+Analysis of Variance Table
+
+Model 1: a1 ~ season + size + speed + mxPH + mnO2 + Cl + NO3 + NH4 + oPO4 + 
+    PO4 + Chla
+Model 2: a1 ~ size + speed + mxPH + mnO2 + Cl + NO3 + NH4 + oPO4 + PO4 + 
+    Chla
+  Res.Df   RSS Df Sum of Sq      F Pr(>F)
+1    182 56668                           
+2    185 57116 -3   -447.62 0.4792 0.6971

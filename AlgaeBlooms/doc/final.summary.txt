@@ -1,0 +1,25 @@
+
+Call:
+lm(formula = a1 ~ size + mxPH + Cl + NO3 + PO4, data = clean.algae[, 
+    1:12])
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-28.874 -12.732  -3.741   8.424  62.926 
+
+Coefficients:
+            Estimate Std. Error t value Pr(>|t|)    
+(Intercept) 57.28555   20.96132   2.733  0.00687 ** 
+sizemedium   2.80050    3.40190   0.823  0.41141    
+sizesmall   10.40636    3.82243   2.722  0.00708 ** 
+mxPH        -3.97076    2.48204  -1.600  0.11130    
+Cl          -0.05227    0.03165  -1.651  0.10028    
+NO3         -0.89529    0.35148  -2.547  0.01165 *  
+PO4         -0.05911    0.01117  -5.291 3.32e-07 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1 
+
+Residual standard error: 17.5 on 191 degrees of freedom
+Multiple R-squared: 0.3527,	Adjusted R-squared: 0.3324 
+F-statistic: 17.35 on 6 and 191 DF,  p-value: 5.554e-16 
+

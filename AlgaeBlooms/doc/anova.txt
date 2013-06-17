@@ -1,0 +1,4 @@
+function (object, ...) 
+UseMethod("anova")
+<bytecode: 0x0000000009819ec8>
+<environment: namespace:stats>
